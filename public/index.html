@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>从零开始学AI | Learn AI from scratch</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <!-- 导航栏 -->
+    <header class="bg-blue-500 text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">从零开始学AI / Learn AI from scratch</h1>
+            <ul class="flex space-x-4">
+                <!-- <li><a href="#" class="hover:underline">Home</a></li> -->
+                <li><a href="#products" class="hover:underline">产品</a></li>
+                <!-- <li><a href="#pricing" class="hover:underline">Pricing</a></li> -->
+                <li><a href="#faq" class="hover:underline">常见问题</a></li>
+                <!-- <li><a href="#contact" class="hover:underline">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 产品介绍 -->
+    <section id="products" class="container mx-auto py-12">
+      <h2 class="text-3xl font-bold text-center mb-8">我们的产品</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="bg-white shadow-md rounded-lg p-6">
+              <h3 class="text-xl font-bold mb-4"><a href="https://blog.aihub2022.top/" target="_blank" class="text-blue-500 hover:underline">AI技术博客</a></h3>
+              <p class="text-gray-700">在我们的博客中，您将发现有关人工智能的最新资讯、教程和案例分析。</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+              <h3 class="text-xl font-bold mb-4"><a href="https://openai-doc.aihub2022.top/" target="_blank" class="text-blue-500 hover:underline">OpenAI 中文文档</a></h3>
+              <p class="text-gray-700">OpenAI 中文文档为中文开发者提供了一站式的人工智能技术学习和开发指南。</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+              <h3 class="text-xl font-bold mb-4"><a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA3MDIyNTgzNA==&action=getalbum&album_id=3280266823330201601#wechat_redirect" target="_blank" class="text-blue-500 hover:underline">AI 合集</a></h3>
+              <p class="text-gray-700">浏览我们的人工智能文章合集，涵盖机器学习、深度学习、人工智能应用等多个主题。</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+              <h3 class="text-xl font-bold mb-4"><a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA3MDIyNTgzNA==&action=getalbum&album_id=3280266823330201601#wechat_redirect" target="_blank" class="text-blue-500 hover:underline">Coze 合集</a></h3>
+              <p class="text-gray-700">浏览我们的 Coze 文章合集，探索各种主题，尽在一个地方。</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- 价格 -->
+
+    <!-- 常见问题 -->
+    <section id="faq" class="container mx-auto py-12">
+      <h2 class="text-3xl font-bold mb-8 text-center">常见问题</h2>
+      <div class="max-w-3xl mx-auto">
+          <div class="accordion">
+              <div class="accordion-item border-b">
+                  <input type="checkbox" id="faq1" class="accordion-toggle hidden">
+                  <label for="faq1" class="accordion-title font-semibold">我们是谁？</label>
+                  <div class="accordion-content pb-4">
+                      <p>我们是一个致力于提供最新的人工智能相关信息、技术服务和教程的团队。</p>
+                  </div>
+              </div>
+              <div class="accordion-item border-b">
+                  <input type="checkbox" id="faq2" class="accordion-toggle hidden">
+                  <label for="faq2" class="accordion-title font-semibold">如何联系我们？</label>
+                  <div class="accordion-content pb-4">
+                      <img src="./static/img/mp-weixin.png" alt="从零开始学AI" class="mx-auto mt-4">
+                      <p>关注我们的公众号：从零开始学AI</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- 联系我们 -->
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 从零开始学AI | Learn AI from scratch. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
