@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Products from "@/components/products";
 import FAQ from "@/components/faq";
 import Footer from "../components/footer";
+import History from "@/components/history";
 
 export default function Home() {
   return (
@@ -12,12 +13,8 @@ export default function Home() {
       <Products />
       <FAQ />
       <Footer />
-      
-      <Script id = "history">
-        console.log("## history");
-        console.log("- 2024-06-27 convert to nextjs architecture");
-        console.log("- 2024-04-23 start to develop");
-      </Script>
+
+      <History />
     </div>
   );
 }
